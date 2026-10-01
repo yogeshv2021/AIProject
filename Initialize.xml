@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Start" verbose="1" parallel="tests"
+    thread-count="5" configfailurepolicy="continue">
+
+
+    <test name="Initialize" annotations="JDK" preserve-order="true">
+        <parameter name="tags" value="not @42" />
+        <classes>
+            <class name="src.test.java.api.test.APIUtils" />
+        </classes>
+    </test>
+
+</suite>

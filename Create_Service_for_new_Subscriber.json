@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/tmf-api/accountManagement/v1/billingAccount/f9479157-17b0-4e64-aace-f93c62580c2e"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "status": "SUCCESS",
+      "message": "Service created successfully"
+    }
+  }
+}
